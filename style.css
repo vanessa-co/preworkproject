@@ -95,17 +95,12 @@ body {
     background: rgb(22, 217, 251);;
     color: white;
   }
-  h2 {
 
-    text-align: center;
-    
-    }
 
-  h2 {
-            margin: auto;
-            width: 640px; 
-            padding: 50px;
-            font-family:"sans-serif"; 
-            color: #01105b;    
-     }
-      
+/*click here */
+a[href^="mailto:"]
+{ 
+  font-family: sans-serif;
+  color: rgb(247, 38, 10);
+  font-size: 20px;
+}
